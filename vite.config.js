@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  base: "/QuickAid",
+  base: "/QuickAid/",
   server: {
     hmr: {
       overlay: false,
